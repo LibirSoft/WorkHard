@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WorkHard</string>
+    <string name="action_setting">Ayarlar</string>
+    <string-array name="dersler">
+        <item>Edebiyat</item>
+        <item>Dil anlatım</item>
+        <item>Matematik</item>
+        <item>Fizik</item>
+        <item>Kimya</item>
+        <item>Biyoloji</item>
+
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_work"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#448aff"
+    tools:context="com.libirsoft.workhard.Work"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tx1"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablo"
+        android:gravity="center"
+        /></ScrollView>
+
+</LinearLayout>

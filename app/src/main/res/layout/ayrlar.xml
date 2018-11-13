@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00e5ff">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/ortalamatxt"
+        android:hint="Ortalama Soru Sayısı Hedefinizi Giriniz"
+        android:textColorHint="#ffff"/>
+
+    <Button
+        android:text="Uygula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uygulabtn"
+        android:background="#e53935"/>
+</LinearLayout>

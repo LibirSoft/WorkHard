@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00bcd4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/textView2"
+        android:text="Bu Program Aslında; Size Ulaşmak İstediğiniz Hedef İçin,  Neler Yapmanız Gerektiğini, Size İçinde Tuttuğu Bilgiler İle Söyler  İyi Kullanımlar Dilerim. YUŞA KOPUZ "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:text="Bu Program, Yuşa Kopuzun Üstün Emekleri İle Yapıldı. Uzun Uğraşlar Sonucunda Başardığım  Bu Program Hakkında Görüşlerinizi Bana  Bu Adresten Bildire Bilirsiniz     "
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:text="libir@outlook.com"
+        android:autoLink="email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAlignment="center" />
+</LinearLayout>
